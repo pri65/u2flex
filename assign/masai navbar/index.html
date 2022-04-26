@@ -6,17 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body{
+            background-color: black;
+        }
+        .top{
+             text-align: center;
+             font-size: large;
+             color: white;
+        }
+        span{
+            color: red;
+        }
         #container{
             display: flex;
             justify-content: space-around;
+            height: 100px;
+            width: 1550px;
+            background-color: white;
+            margin-top: 316px
         } 
+        .box1{
+            height: 100px;
+            width: 775px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box1>div>p{
+            font-weight: bold;
+            margin-top: 40px;
+        }
+        .box1>div>button{
+            background-color: red;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
-    <p>register in the coding classroom and learn the basics of web developement for free  <span>Register</span></span></p>
+    <div class="header">
+    <p class="top">register in the coding classroom and learn the basics of web developement for free  <span>Register</span></span></p>
    <div id="container">
        <div><h1>masai</h1></div>
-       <div>
+       <div class="box1">
            <div><p>COURSES</p></div>
            <div><p>FEES & ISA</p></div>
            <div><p>ABOUT US</p></div>
@@ -25,6 +55,7 @@
            <div><p>EVENTS</p></div>
            <div><button>LOGIN</button></div>
        </div>
+   </div>
    </div>
 </body>
 </html>

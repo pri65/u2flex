@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Session Flex + Position</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .card {
+        width: 300px;
+        border: 1px solid rgb(224, 224, 224);
+    }
+
+    .card-img {
+        width: 100%;
+    }
+
+    .footer {
+        border-top: 1px solid red;
+    }
+
+    h3,
+    p {
+        margin: 5px 0px;
+    }
+
+    .box-img {
+        width: 100%;
+    }
+</style>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 9px;
+    border: 1px solid white;
+    margin: 0px 10px;
+    height: 500px;
+    width: 350px;
+    justify-content: space-between;
+}
+.box-img img{
+
+    height: 400px;
+    width: 350px;
+}
+.tags{
+    padding: 0px 5px ;
+}
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="box-img">
+                <img src="https://raw.githubusercontent.com/Sourav12061999/nykaafashion/main/nykaa-clone/Kids%20Page/Images/img1.jpg"
+                    alt="" class="card-img">
+                <!-- <p>Bestseller</p> -->
+            </div>
+            <div class="tags">
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+        </div>
+        </div>
+        <div class="card">
+            <div class="box-img">
+                <img src="https://raw.githubusercontent.com/Sourav12061999/nykaafashion/main/nykaa-clone/Kids%20Page/Images/img1.jpg"
+                    alt="" class="card-img">
+                <!-- <p>Bestseller</p> -->
+            </div>
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+        </div>
+        <div class="card">
+            <div class="box-img">
+                <img src="https://raw.githubusercontent.com/Sourav12061999/nykaafashion/main/nykaa-clone/Kids%20Page/Images/img1.jpg"
+                    alt="" class="card-img">
+                <!-- <p>Bestseller</p> -->
+            </div>
+            <h3 class="card-heading">Kids Garments</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nulla. </p>
+        </div>
+
+    </div>
+</body>
+
+</html>
